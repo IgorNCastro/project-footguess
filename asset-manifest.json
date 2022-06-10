@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/project-footguess/static/css/main.b7ccdd1c.css",
-    "main.js": "/project-footguess/static/js/main.83114f43.js",
+    "main.css": "/project-footguess/static/css/main.963185e3.css",
+    "main.js": "/project-footguess/static/js/main.4cec70d6.js",
     "index.html": "/project-footguess/index.html",
-    "main.b7ccdd1c.css.map": "/project-footguess/static/css/main.b7ccdd1c.css.map",
-    "main.83114f43.js.map": "/project-footguess/static/js/main.83114f43.js.map"
+    "main.963185e3.css.map": "/project-footguess/static/css/main.963185e3.css.map",
+    "main.4cec70d6.js.map": "/project-footguess/static/js/main.4cec70d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7ccdd1c.css",
-    "static/js/main.83114f43.js"
+    "static/css/main.963185e3.css",
+    "static/js/main.4cec70d6.js"
   ]
 }
