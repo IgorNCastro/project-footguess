@@ -22,7 +22,7 @@ label {
 }
 
 span {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
 }
 
 button {
@@ -33,7 +33,7 @@ button {
   border-radius: 3px;
   color: black;
   background: lightgoldenrodyellow;
-  font-size: 1.5vw;
+  font-size: 1.9vw;
   font-weight: 600;
   line-height: 20px;
   padding: 10px;
@@ -150,7 +150,7 @@ footer {
   width: 70%;
   margin: 0 auto;
   height: auto;
-  max-height: 70vh;
+  max-height: 85vh;
   margin-top: calc(100vh - 85vh - 20px);
   background: #fff;
   border-radius: 4px;
@@ -175,10 +175,18 @@ footer {
   font-size: 20px;
 }
 
-.list-how li {
+li {
   margin: 10px;
   text-align: left;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+h2 {
+  font-size: 3vw;
 }
 
 @media (max-width: 555px) {

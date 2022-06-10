@@ -77,11 +77,11 @@ export class Home extends React.Component {
               />}
               {winPopUp && <PopupW
                 content={<>
-                  <h3>Congratulations</h3>
-                  <h4>Today's mystery player is...</h4>
+                  <h2>Congratulations</h2>
+                  <h3>Today's mystery player is...</h3>
                   <h2>{ dayResult.name }</h2>
                   <img src={ dayResult.photo } alt={ dayResult.name } />
-                  <h4>You solved it in {userAttempts} guesses!</h4>
+                  <h3>You solved it in {userAttempts} guesses!</h3>
                   <button
                     onClick={ togglePopupW }
                   >
@@ -92,9 +92,9 @@ export class Home extends React.Component {
               />}
               {endGame && <PopupNoChances
                 content={<>
-                  <h3>Sorry!</h3>
-                  <h4>You used your SIX chances</h4>
-                  <h4>Come back tomorrow to try again with another mystery player</h4>
+                  <h2>Sorry!</h2>
+                  <h3>You used your SIX chances</h3>
+                  <h3>Come back tomorrow to try again with another mystery player</h3>
                   <img
                     src="https://i.pinimg.com/originals/1d/90/14/1d901474a4fe251860914420959c551c.gif"
                     alt="FAIL GIF"
